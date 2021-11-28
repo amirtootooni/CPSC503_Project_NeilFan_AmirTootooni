@@ -1,0 +1,201 @@
+2021-11-27 18:10:00.373621: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cudart64_100.dll'; dlerror: cudart64_100.dll not found
+2021-11-27 18:10:00.374086: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+WARNING:tensorflow:From C:\Users\Amirhossein\Desktop\503 Project Code\CPSC503_Project_NeilFan_AmirTootooni\CovQA HAE\bert_hae\optimization.py:89: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+logtostderr : False    
+alsologtostderr : False
+log_dir : 
+v : -1
+verbosity : -1
+logger_levels : {}
+stderrthreshold : fatal
+showprefixforinfo : True
+run_with_pdb : False
+pdb_post_mortem : False
+pdb : False
+run_with_profiling : False
+profile_file : None
+use_cprofile_for_profiling : True
+only_check_args : False
+op_conversion_fallback_to_while_loop : False
+test_srcdir :
+test_tmpdir : C:\Users\AMIRHO~1\AppData\Local\Temp\absl_testing
+test_random_seed : 301
+test_randomize_ordering_seed :
+xml_output_file : 
+f :
+bert_config_file : C:/Users/Amirhossein/Desktop/503 Project Code/CPSC503_Project_NeilFan_AmirTootooni/CovQA HAE/uncased_L-12_H-768_A-12/bert_config.json
+vocab_file : C:/Users/Amirhossein/Desktop/503 Project Code/CPSC503_Project_NeilFan_AmirTootooni/CovQA HAE/uncased_L-12_H-768_A-12/vocab.txt
+output_dir : C:/Users/Amirhossein/Desktop/503 Project Code/CPSC503_Project_NeilFan_AmirTootooni/CovQA HAE/bert_out/
+quac_train_file : C:/Users/Amirhossein/Desktop/503 Project Code/CPSC503_Project_NeilFan_AmirTootooni/DataSets/QuAC/train_v0.2.json
+quac_predict_file : C:/Users/Amirhossein/Desktop/503 Project Code/CPSC503_Project_NeilFan_AmirTootooni/DataSets/QuAC/val_v0.2.json
+init_checkpoint : C:/Users/Amirhossein/Desktop/503 Project Code/CPSC503_Project_NeilFan_AmirTootooni/CovQA HAE/uncased_L-12_H-768_A-12/bert_model.ckpt
+do_lower_case : True
+max_seq_length : 512
+doc_stride : 128
+max_query_length : 64
+do_train : True
+do_predict : True
+train_batch_size : 6
+predict_batch_size : 6
+learning_rate : 3e-05
+num_train_epochs : 2.0
+warmup_proportion : 0.1
+save_checkpoints_steps : 1000
+evaluation_steps : 5
+evaluate_after : 0
+iterations_per_loop : 1000
+n_best_size : 4
+max_answer_length : 30
+use_tpu : False
+tpu_name : None
+tpu_zone : None
+gcp_project : None
+master : None
+num_tpu_cores : 8
+verbose_logging : False
+history : 6
+load_small_portion : True
+dataset : quac
+cache_dir : C:/Users/Amirhossein/Desktop/503 Project Code/CPSC503_Project_NeilFan_AmirTootooni/CovQA HAE/bert_out/cache/
+max_considered_history_turns : 11
+train_steps : 20
+WARNING:tensorflow:From hae.py:54: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+WARNING:tensorflow:From hae.py:55: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+WARNING:tensorflow:From hae.py:55: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+WARNING:tensorflow:From C:\Users\Amirhossein\Desktop\503 Project Code\CPSC503_Project_NeilFan_AmirTootooni\CovQA HAE\bert_hae\modeling.py:92: The name tf.gfile.GFile is deprecated. Please use tf.io.gfile.GFile instead.
+
+WARNING:tensorflow:From hae.py:64: The name tf.gfile.MakeDirs is deprecated. Please use tf.io.gfile.makedirs instead.
+
+WARNING:tensorflow:From C:\Users\Amirhossein\Desktop\503 Project Code\CPSC503_Project_NeilFan_AmirTootooni\CovQA HAE\bert_hae\cqa_supports.py:95: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+WARNING:tensorflow:From C:\Users\Amirhossein\Desktop\503 Project Code\CPSC503_Project_NeilFan_AmirTootooni\CovQA HAE\bert_hae\cqa_supports.py:107: The name tf.logging.warning is deprecated. Please use tf.compat.v1.logging.warning instead.
+
+WARNING:tensorflow:<<<<<<<<<< load_small_portion is on! >>>>>>>>>>
+attempting to load train features from cache
+WARNING:tensorflow:<<<<<<<<<< load_small_portion is on! >>>>>>>>>>
+attempting to load val features from cache
+WARNING:tensorflow:From hae.py:168: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From C:\Users\Amirhossein\Desktop\503 Project Code\CPSC503_Project_NeilFan_AmirTootooni\CovQA HAE\bert_hae\modeling.py:189: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From C:\Users\Amirhossein\Desktop\503 Project Code\CPSC503_Project_NeilFan_AmirTootooni\CovQA HAE\bert_hae\modeling.py:432: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From C:\Users\Amirhossein\Desktop\503 Project Code\CPSC503_Project_NeilFan_AmirTootooni\CovQA HAE\bert_hae\modeling.py:380: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From C:\Users\Amirhossein\Desktop\503 Project Code\CPSC503_Project_NeilFan_AmirTootooni\CovQA HAE\bert_hae\modeling.py:720: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From C:\Python3.7\lib\site-packages\tensorflow_core\python\layers\core.py:187: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From C:\Users\Amirhossein\Desktop\503 Project Code\CPSC503_Project_NeilFan_AmirTootooni\CovQA HAE\bert_hae\modeling.py:298: The name tf.erf is deprecated. Please use tf.math.erf instead.
+
+WARNING:tensorflow:From hae.py:192: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+WARNING:tensorflow:From hae.py:198: The name tf.train.init_from_checkpoint is deprecated. Please use tf.compat.v1.train.init_from_checkpoint instead.
+
+WARNING:tensorflow:From hae.py:218: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+WARNING:tensorflow:From C:\Users\Amirhossein\Desktop\503 Project Code\CPSC503_Project_NeilFan_AmirTootooni\CovQA HAE\bert_hae\optimization.py:27: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+WARNING:tensorflow:From C:\Users\Amirhossein\Desktop\503 Project Code\CPSC503_Project_NeilFan_AmirTootooni\CovQA HAE\bert_hae\optimization.py:32: The name tf.train.polynomial_decay is deprecated. Please use tf.compat.v1.train.polynomial_decay instead.
+
+WARNING:tensorflow:From C:\Python3.7\lib\site-packages\tensorflow_core\python\ops\clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+***** Running training *****
+  Num orig examples = %d 78
+  Num train_features = %d 378
+  Batch size = %d 6
+  Num steps = %d 20
+WARNING:tensorflow:From hae.py:230: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+WARNING:tensorflow:From hae.py:234: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+WARNING:tensorflow:From hae.py:236: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From hae.py:237: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+WARNING:tensorflow:From hae.py:238: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2021-11-27 18:10:09.909905: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library nvcuda.dll
+2021-11-27 18:10:09.956907: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: NVIDIA GeForce RTX 2060 SUPER major: 7 minor: 5 memoryClockRate(GHz): 1.68
+pciBusID: 0000:0a:00.0
+2021-11-27 18:10:09.958793: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cudart64_100.dll'; dlerror: cudart64_100.dll not found
+ader.cc:55] Could not load dynamic library 'cublas64_100.dll'; dlerror: cublas64_100.dll not found
+2021-11-27 18:10:09.961061: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cufft64_100.dll'; dlerror: cufft64_100.dll not found
+2021-11-27 18:10:09.962329: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'curand64_100.dll'; dlerror: curand64_100.dll not found
+2021-11-27 18:10:09.963532: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cusolver64_100.dll'; dlerror: cusolver64_100.dll not found
+2021-11-27 18:10:09.964649: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cusparse64_100.dll'; dlerror: cusparse64_100.dll not found
+2021-11-27 18:10:09.965652: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cudnn64_7.dll'; dlerror: cudnn64_7.dll not found
+2021-11-27 18:10:09.965753: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1641] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2021-11-27 18:10:09.969348: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2021-11-27 18:10:09.970503: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-11-27 18:10:09.970590: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]
+WARNING:tensorflow:From hae.py:242: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+training step: 0, total_loss: 6.425911903381348
+training step: 1, total_loss: 4.666603088378906
+training step: 2, total_loss: 6.154363632202148
+training step: 3, total_loss: 4.833796501159668
+training step: 4, total_loss: 5.575218200683594
+training step: 5, total_loss: 4.351386070251465
+epoch finished!
+WARNING:tensorflow:From C:\Users\Amirhossein\Desktop\503 Project Code\CPSC503_Project_NeilFan_AmirTootooni\CovQA HAE\bert_hae\cqa_supports.py:497: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+INFO:tensorflow:Writing predictions to: C:/Users/Amirhossein/Desktop/503 Project Code/CPSC503_Project_NeilFan_AmirTootooni/CovQA HAE/bert_out/predictions_5.json
+INFO:tensorflow:Writing nbest to: C:/Users/Amirhossein/Desktop/503 Project Code/CPSC503_Project_NeilFan_AmirTootooni/CovQA HAE/bert_out/nbest_predictions_5.json
+WARNING:tensorflow:From hae.py:333: The name tf.Summary is deprecated. Please use tf.compat.v1.Summary instead.
+
+evaluation: 5, total_loss: 4.620436191558838, f1: 0.07480188981679232, followup: 0.0, yesno: 0.27233115468409586, heq: 0.027233115468409588, dheq: 0.0
+
+Model saved in path C:/Users/Amirhossein/Desktop/503 Project Code/CPSC503_Project_NeilFan_AmirTootooni/CovQA HAE/bert_out//model_5.ckpt
+training step: 6, total_loss: 3.8532676696777344
+training step: 7, total_loss: 5.2928571701049805
+training step: 8, total_loss: 4.3499908447265625
+training step: 9, total_loss: 5.121726036071777
+training step: 10, total_loss: 5.619019031524658
+epoch finished!
+INFO:tensorflow:Writing predictions to: C:/Users/Amirhossein/Desktop/503 Project Code/CPSC503_Project_NeilFan_AmirTootooni/CovQA HAE/bert_out/predictions_10.json
+INFO:tensorflow:Writing nbest to: C:/Users/Amirhossein/Desktop/503 Project Code/CPSC503_Project_NeilFan_AmirTootooni/CovQA HAE/bert_out/nbest_predictions_10.json
+evaluation: 10, total_loss: 4.396514892578125, f1: 0.2177862954146492, followup: 0.0, yesno: 0.27233115468409586, heq: 0.1906318082788671, dheq: 0.0
+
+Model saved in path C:/Users/Amirhossein/Desktop/503 Project Code/CPSC503_Project_NeilFan_AmirTootooni/CovQA HAE/bert_out//model_10.ckpt
+training step: 11, total_loss: 4.908383369445801
+training step: 12, total_loss: 5.088169097900391
+training step: 13, total_loss: 5.982246398925781
+training step: 14, total_loss: 5.857658863067627
+training step: 15, total_loss: 3.174476146697998
+epoch finished!
+INFO:tensorflow:Writing predictions to: C:/Users/Amirhossein/Desktop/503 Project Code/CPSC503_Project_NeilFan_AmirTootooni/CovQA HAE/bert_out/predictions_15.json
+INFO:tensorflow:Writing nbest to: C:/Users/Amirhossein/Desktop/503 Project Code/CPSC503_Project_NeilFan_AmirTootooni/CovQA HAE/bert_out/nbest_predictions_15.json
+evaluation: 15, total_loss: 4.309055805206299, f1: 0.23148148148148148, followup: 0.0, yesno: 0.27233115468409586, heq: 0.23148148148148148, dheq: 0.0
+
+Model saved in path C:/Users/Amirhossein/Desktop/503 Project Code/CPSC503_Project_NeilFan_AmirTootooni/CovQA HAE/bert_out//model_15.ckpt
+training step: 16, total_loss: 4.259490966796875
+epoch finished!
+training step: 17, total_loss: 4.830556869506836
+training step: 18, total_loss: 3.0775346755981445
+training step: 19, total_loss: 3.8231284618377686
+training step: 20, total_loss: 3.4024910926818848
+epoch finished!
+INFO:tensorflow:Writing predictions to: C:/Users/Amirhossein/Desktop/503 Project Code/CPSC503_Project_NeilFan_AmirTootooni/CovQA HAE/bert_out/predictions_20.json
+INFO:tensorflow:Writing nbest to: C:/Users/Amirhossein/Desktop/503 Project Code/CPSC503_Project_NeilFan_AmirTootooni/CovQA HAE/bert_out/nbest_predictions_20.json
+evaluation: 20, total_loss: 4.284260272979736, f1: 0.23148148148148148, followup: 0.0, yesno: 0.27233115468409586, heq: 0.23148148148148148, dheq: 0.0
+
+Model saved in path C:/Users/Amirhossein/Desktop/503 Project Code/CPSC503_Project_NeilFan_AmirTootooni/CovQA HAE/bert_out//model_20.ckpt
