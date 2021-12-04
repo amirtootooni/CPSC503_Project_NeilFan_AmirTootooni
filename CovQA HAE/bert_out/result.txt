@@ -1,0 +1,1 @@
+0.23148148148148148,0.23148148148148148,0.0,6,C:/Users/Amirhossein/Desktop/503 Project Code/CPSC503_Project_NeilFan_AmirTootooni/CovQA HAE/bert_out/
